@@ -1,7 +1,7 @@
 FROM alpine:3.10
 
 ARG BaiduPCSGo_VER=3.7.0
-ARG ReleaseTag=3.7.0-fix5
+ARG ReleaseTag="3.7.0-fix5"
 ARG  S6_VER=1.22.1.0D
 
 COPY  root /
